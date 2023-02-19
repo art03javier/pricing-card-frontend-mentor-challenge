@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: 'Karla';
+  font-family: "Karla";
   font-size: 16px;
+  font-weight: 400;
 }
 
 body {
@@ -12,17 +13,17 @@ h2, h4, p {
   margin: 0;
 }
 
-*, *::before, *::after {
+*,*:before, *:after {
   box-sizing: inherit;
 }
-
 
 #card {
   width: 600px;
   height: 400px;
-  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
   overflow: hidden;
+  
 }
 
 #top-section {
@@ -43,14 +44,14 @@ h2, h4, p {
   height: 100%;
   vertical-align: top;
   background-color: #2ab2af;
-  padding: 20px;
+  padding: 25px;
 }
 
 #bottom-right-section {
   display: inline-block;
   width: 50%;
   height: 100%;
-  background-color: #2EBFBD;
+  background-color: #2ebfbd;
   vertical-align: top;
   padding: 25px;
 }
@@ -74,13 +75,13 @@ button {
   background-color: #c0df34;
   border: none;
   padding: 10px;
-  width: 90%;
+  width: 100%;
   border-radius: 5px;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: #A9C42D;
+  background-color: #a9c42d;
   transform: scale(1.02);
 }
 
